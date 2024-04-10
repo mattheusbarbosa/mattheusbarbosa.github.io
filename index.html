@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook</title>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>facebook</h1>
+            <h2>O Facebook ajuda você a se conectar e<br>compartilhar com as pessoas que<br>fazem parte da sua vida.</h2>
+        </header>
+        <main>
+            <form action="teste.php" method="post">
+                <p><input type="email" name="email" id="iemail" placeholder="Email ou telefone"></p>
+                <p><input type="password" name="pas" id="ipas" placeholder="Senha"></p>
+                <p><input type="submit" id="entrar" value="Entrar"></p>
+                <p id="esqueceu"><a id="esq" href="#">Esqueceu a senha?</a></p>
+                <p id="traco">______________________________________________</p>
+                <p id="criar"><a class="criar" href="#">Criar nova conta</a></p>
+            </form>
+            
+        </main>
+    </section>
+    <p id="crie"><a id="linkcrie" href="#" onclick="testando()">Crie uma Página</a>para uma celebridade, uma marca ou uma<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspempresa.</p>
+    <footer>
+        <nav>
+            <a href="#">teste</a>
+        </nav>
+    </footer>
+    <script>
+        function testando(){
+            const a = document.getElementById('linkcrie')
+            a.innerHTML ``
+        }
+    </script>
+</body>
+</html>

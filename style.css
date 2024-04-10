@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+            background-color: #F0F2F5;
+    
+}
+
+section{
+    background-color: #F0F2F5;
+   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15vh;
+}
+
+main{
+    margin-left: 10px;
+}
+
+
+footer {
+    background-color: white;
+    margin: 0px;
+    height: 24.9vh;;
+
+}
+
+@font-face {
+    font-family:'face';
+    src: url(KlavikaRegular-TF.otf);
+    font-weight: normal;
+        font-style: normal;
+}
+
+header{
+    margin-bottom: 79px;
+}
+
+h1 {
+   color: #0866FF;
+   font-size: 69px;
+   font-family: 'face';
+   font-weight: bolder;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: #1C1E21;
+}
+
+#crie{
+    display: flex;
+    margin-bottom: 177px;
+    margin-left: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1C1E21;
+}
+
+a#linkcrie{
+    font-weight: bolder;
+    color: black;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+a#linkcrie:hover{
+    text-decoration: underline;
+}
+
+form {
+    background-color: white; 
+    padding: 17px 15px;
+    border-radius: 5px; 
+    box-shadow: 0px 4px 14px 2px rgba(0, 0, 0, 0.089);
+    margin-left: 64px;
+    margin-bottom: 31px;
+}
+
+#iemail{
+    width: 358px;
+    height: 49px;
+    border-radius: 9px;
+    margin-bottom: 8px;
+    border-color: #00000010;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.089);
+    outline: none;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+#ipas{
+    width: 358px;
+    height: 49px;
+    border-radius: 9px;
+    margin-bottom: 8px;
+    border-color: #00000010;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.089);
+    outline: none;
+    padding-left: 10px;
+    font-size: 17px;
+    
+}
+
+#entrar{
+    padding: 13px 156.5px;
+    border-radius: 5px;
+    margin-bottom: 11px;
+    color: white;
+    background-color: #1877F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: #eff6ff;
+    cursor: pointer;
+}
+
+#ipas::placeholder{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.404);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+#iemail::placeholder{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.404);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#iemail:focus, #ipas:focus {
+    border: 1px solid #1877F2;
+}
+
+#esqueceu{
+    text-align: center;
+}
+
+#esq{
+    color: #1877F2;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 2px;
+    display: block;
+}
+
+#esq:hover{
+    text-decoration: underline;
+}
+
+p#traco{
+    font-weight: bolder;
+    color: #e0e0e0ea;
+    margin-bottom: 20px;
+}
+
+#criar, .criar{
+    text-align: center;
+    text-decoration: none;
+    background-color: #44b12e;
+    margin:auto;
+    padding: 15px 0px;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 165px;
+    margin-bottom: 10px;
+}
+
+#criar:hover, .criar:hover{
+    background: #38ac21;
+}
